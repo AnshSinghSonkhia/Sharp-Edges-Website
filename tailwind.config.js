@@ -24,6 +24,9 @@ module.exports = {
         'tracking-in-contract-bck': 'tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both',
         'heartbeat': 'heartbeat 1.5s ease-in-out infinite both',
       },
+      spacing: {
+        '90vw': '90vw',
+      },
     },
   },
   plugins: [],

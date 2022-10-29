@@ -61,6 +61,10 @@
                     </a>
                     <a href="#" class="relative group">
                         <div class="absolute -bottom-1 w-full h-0.5 bg-black/80 scale-x-0 group-hover:scale-x-100 transition-transform"></div>
+                        <p class="cursor-pointer group-hover:font-semibold group-hover:scale-105 transition-transform">ABOUT US</p>
+                    </a>
+                    <a href="#" class="relative group">
+                        <div class="absolute -bottom-1 w-full h-0.5 bg-black/80 scale-x-0 group-hover:scale-x-100 transition-transform"></div>
                         <p class="cursor-pointer group-hover:font-semibold group-hover:scale-105 transition-transform">SERVICES</p>
                     </a>
                     <a href="#" class="relative group">
@@ -70,10 +74,6 @@
                     <a href="#" class="relative group">
                         <div class="absolute -bottom-1 w-full h-0.5 bg-black/80 scale-x-0 group-hover:scale-x-100 transition-transform"></div>
                         <p class="cursor-pointer group-hover:font-semibold group-hover:scale-105 transition-transform">TESTIMONIALS</p>
-                    </a>
-                    <a href="/pages/contactus.html" class="relative group">
-                        <div class="absolute -bottom-1 w-full h-0.5 bg-black/80 scale-x-0 group-hover:scale-x-100 transition-transform"></div>
-                        <p class="cursor-pointer group-hover:font-semibold group-hover:scale-105 transition-transform">CONTACT US</p>
                     </a>
                 </ul>
                 <div class="Hamburger flex md:hidden justify-center items-center cursor-pointer" data-hamburger-icon>
@@ -89,6 +89,9 @@
                                 <li class="cursor-pointer hover:animate-tracking-in-contract-bck">HOME</li>
                             </a>
                             <a href="#">
+                                <li class="cursor-pointer hover:animate-tracking-in-contract-bck">ABOUT US</li>
+                            </a>
+                            <a href="#">
                                 <li class="cursor-pointer hover:animate-tracking-in-contract-bck">SERVICES</li>
                             </a>
                             <a href="#">
@@ -96,9 +99,6 @@
                             </a>
                             <a href="#">
                                 <li class="cursor-pointer hover:animate-tracking-in-contract-bck">TESTIMONIALS</li>
-                            </a>
-                            <a href="#">
-                                <li class="cursor-pointer hover:animate-tracking-in-contract-bck">CONTACT US</li>
                             </a>
                         </ul>
                     </div>
@@ -125,18 +125,21 @@
 
 <!-- Contact Us Form -->
 
-    <div class=" container bg-[#f9fafc] mx-auto flex flex-col justify-center items-center mt-20">
-        <h1 class="font-bold text-2xl mb-3 flex justify-center uppercase">Get in touch</h1>
-        <p>
+    <div class=" container w-90vw bg-[#f9fafc] mx-auto flex flex-col justify-center items-center mt-20 mb-20">
+        <h1 class="font-bold text-5xl mb-3 flex justify-center uppercase hover:scale-105 transform transition-all px-5">Get in touch</h1>
+        <p class="px-5">
             Have an inquiry or some feedback for us?
     Fill out the form below to contact our team.
         </p>
-        <form action="https://formsubmit.co/anshssonkhia@gmail.com" method="POST" target="_blank" class="flex flex-col space-y-5 md:w-96">
-            <input type="text" name="Name" placeholder="Full Name" class="px-5 border-2 border-black rounded-full" required>
-            <input type="email" name="Email" placeholder="Email" class="px-5 border-2 border-black rounded-full" required>
+
+        <!-- form action="https://formsubmit.co/youremail@email.com" method="POST" target="_blank" -->
+        <form action="https://formsubmit.co/a3323c3be064f6c83fa0721d82c4b571" method="POST" target="_blank" class="flex flex-col justify-center items-center space-y-5 mt-10 w-90vw">
+            <input type="text" name="Name" placeholder="Full Name" class="px-5 border-2 border-black rounded-full h-10 w-9/12" required>
+            <input type="email" name="Email" placeholder="Email" class="px-5 border-2 border-black rounded-full h-10 w-9/12" required>
+            <input type="tel" name="Phone" placeholder="Phone No." class="px-5 border-2 border-black rounded-full h-10 w-9/12" required>
             
             <!-- All Countries Dropdown List -->
-            <select id="Country" name="Country" class="border-2 border-black rounded-full px-5 text-black">
+            <select id="Country" name="Country" class="border-2 border-black rounded-full px-5 text-black h-10  w-9/12">
                 <option>Country</option>
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Aland Islands">Aland Islands</option>
@@ -392,13 +395,124 @@
                 <option value="Zimbabwe">Zimbabwe</option>
             </select>
 
-            <textarea class="bg-white border-2 border-black" name="Message" id="Message" cols="30" rows="10" required></textarea>
+            <textarea class="bg-white border-2 border-black rounded-3xl w-9/12 px-5" name="Message" id="Message" cols="30" rows="10" required></textarea>
             <div class="btn flex justify-center">
                 <button type="submit" class="bg-rose-600 text-white font-semibold h-10 w-32 rounded-full cursor-pointer hover:scale-110 hover:bg-black transform transition-all drop-shadow-2xl">Send</button>
             </div>
         </form>
     </div>
 
+<!-- Contact Details -->
     
+
+
+<!-- Footer -->
+     
+    <div class="pt-12 ">
+        <footer id="footer" class="relative z-50 bg-gray-900 ">
+            <div tabindex="0" aria-label="footer" class="focus:outline-none border-t border-b border-gray-700 py-16">
+                <div class="mx-auto container px-4 xl:px-12 2xl:px-4">
+                    <div class="lg:flex">
+                        <div class="w-full lg:w-1/2 mb-16 lg:mb-0 flex">
+                            <div class="w-full lg:w-1/2 px-6">
+                                <ul>
+                                    <li><a class="focus:outline-none focus:underline  text-xs lg:text-sm leading-none hover:text-brand text-gray-50" href="javascript:void(0)">About Us</a></li>
+                                    <li class="mt-6"><a class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50" href="javascript:void(0)">Services</a></li>
+                                    <li class="mt-6"><a class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50" href="javascript:void(0)">Testimonials</a></li>
+                                    <li class="mt-6"><a class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50" href="javascript:void(0)">Portfolio</a></li>
+                                    <li class="mt-6"><a href="javascript:void(0)" class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50">Conatact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="w-full lg:w-1/2 px-6">
+                                <ul>
+                                    <li><a class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50" href="javascript:void(0)">FAQs</a></li>
+                                    <li class="mt-6"><a class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50" href="javascript:void(0)">Blog</a></li>
+                                    <li class="mt-6"><a class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50" href="javascript:void(0)">Careers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/2 flex">
+                            <div class="w-full lg:w-1/2 px-6">
+                                <ul>
+                                    <li><a href="javascript:void(0)" class="focus:underline focus:outline-none text-xs lg:text-sm leading-none hover:text-brand text-gray-50">Privacy policy</a></li>
+                                    <li class="mt-6"><a class="focus:underline focus:outline-none text-xs lg:text-sm leading-none hover:text-brand  text-gray-50" href="javascript:void(0)">Terms of service</a></li>
+                                </ul>
+                            </div>
+                            <div class="hidden w-full lg:w-1/2 px-6 md:flex flex-col justify-between">
+                                <div class="flex flex-col space-y-2 md:space-y-0 md:space-x-1 lg:space-x-2.5 md:flex-row items-center mb-6">
+                                    <a  aria-label="Instagram" href="javascript:void(0)">
+                                        <div class="text-gray-50 cursor-pointer hover:text-brand ">
+                                        <img class="block w-6 h-6 mx-auto" src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" alt="Instagram">
+                                        </div> 
+                                    </a>
+                                    <a aria-label="Twitter"  href="javascript:void(0)" class="ml-4">
+                                        <div class="">
+                                        <img class="block w-6 h-6" src="https://cdn-icons-png.flaticon.com/512/2504/2504947.png" alt="Twitter">
+                                        </div>
+                                    </a>
+                                    <a aria-label="Facebook"  href="javascript:void(0)" class="ml-4">
+                                        <div class="">
+                                        <img class="block w-6 h-6" src="https://cdn-icons-png.flaticon.com/512/3670/3670124.png" alt="Facebook">
+                                        </div>
+                                    </a>
+                                    <a aria-label="Behance"  href="javascript:void(0)" class="ml-4">
+                                        <div class="">
+                                        <img class="block w-6 h-6" src="https://cdn-icons-png.flaticon.com/512/2504/2504888.png" alt="Behance">
+                                        </div>
+                                    </a>
+                                    <a aria-label="LinkedIn"  href="javascript:void(0)" class="ml-4">
+                                        <div class="">
+                                        <img class="block w-6 h-6" src="https://cdn-icons-png.flaticon.com/512/3992/3992606.png" alt="LinkedIn">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Social Media Icons Again -->
+                <div class="md:hidden w-full lg:w-1/2 px-6 flex justify-center mt-10">
+                    <div class="flex space-x-3 justify-center items-center mb-6">
+                        <a  aria-label="Instagram" href="javascript:void(0)">
+                            <div class="text-gray-50 cursor-pointer hover:text-brand ">
+                            <img class="block w-6 h-6 mx-auto" src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" alt="Instagram">
+                            </div> 
+                        </a>
+                        <a aria-label="Twitter"  href="javascript:void(0)" class="ml-4">
+                            <div class="">
+                            <img class="block w-6 h-6" src="https://cdn-icons-png.flaticon.com/512/2504/2504947.png" alt="Twitter">
+                            </div>
+                        </a>
+                        <a aria-label="Facebook"  href="javascript:void(0)" class="ml-4">
+                            <div class="">
+                            <img class="block w-6 h-6" src="https://cdn-icons-png.flaticon.com/512/3670/3670124.png" alt="Facebook">
+                            </div>
+                        </a>
+                        <a aria-label="Behance"  href="javascript:void(0)" class="ml-4">
+                            <div class="">
+                            <img class="block w-6 h-6" src="https://cdn-icons-png.flaticon.com/512/2504/2504888.png" alt="Behance">
+                            </div>
+                        </a>
+                        <a aria-label="LinkedIn"  href="javascript:void(0)" class="ml-4">
+                            <div class="">
+                            <img class="block w-6 h-6" src="https://cdn-icons-png.flaticon.com/512/3992/3992606.png" alt="LinkedIn">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="py-16 flex flex-col justify-center items-center">
+                <a class="focus:outline-none" tabindex="0" role="link" aria-label="home link" href="#"
+                    >
+                    <img class="block" src="/assets/img/sharpedgesLogo-White.png" alt="tuk logo">
+                </a>
+                <p tabindex="0" class="focus:outline-none mt-3 text-xs lg:text-sm leading-normal text-gray-50 text-center">
+                    2022 © SharpEdges
+                </p>
+                <p tabindex="0" class="focus:outline-none text-xs lg:text-sm leading-normal text-gray-50 text-center">All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+
 </body>
 </html>
